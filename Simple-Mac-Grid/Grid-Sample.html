@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalise.css" />
+    <title>Iphone layout</title>
+    <style>
+      main {
+        margin: 5% auto;
+        width: 425px;
+        display: grid;
+        grid-template-rows: 15px 10px 80px 10px 80px 10px 10px 80px 10px 80px 10px 80px 15px;
+        grid-template-columns: 15px 10px 80px 10px 80px 10px 15px 10px 80px 10px 80px 10px 15px;
+        background-image: linear-gradient(
+          rgba(4, 5, 30, 0.3) 100%,
+          rgba(44, 6, 40)
+        );
+        border-radius: 20px;
+        box-shadow: 4px 4px 4px silver;
+      }
+      .sec-one {
+        grid-row: 2 / span 5;
+        grid-column: 2 / span 5;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-two {
+        grid-row: 3 / span 1;
+        grid-column: 3 / span 1;
+        border-radius: 50%;
+        background-image: linear-gradient(
+          rgba(0, 6, 172, 0.3),
+          rgb(129, 74, 124)
+        );
+      }
+      .sec-three {
+        grid-row: 3 / span 1;
+        grid-column: 5 / span 1;
+        background-image: linear-gradient(
+          rgba(0, 6, 172, 0.3),
+          rgb(129, 74, 124)
+        );
+        border-radius: 50%;
+      }
+      .sec-four {
+        grid-row: 5 / span 1;
+        grid-column: 3 / span 1;
+        background-image: linear-gradient(
+          rgba(0, 6, 172, 0.3),
+          rgb(129, 74, 124)
+        );
+        border-radius: 50%;
+      }
+      .sec-five {
+        grid-row: 5 / span 1;
+        grid-column: 5 / span 1;
+        background-image: linear-gradient(
+          rgba(0, 6, 172, 0.3),
+          rgb(129, 74, 124)
+        );
+        border-radius: 50%;
+      }
+      .sec-six {
+        grid-row: 2 / span 5;
+        grid-column: 8 / span 5;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-seven {
+        grid-row: 8 / span 1;
+        grid-column: 2 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-eight {
+        grid-row: 8 / span 1;
+        grid-column: 5 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-nine {
+        grid-row: 10 / span 1;
+        grid-column: 2 / span 5;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-ten {
+        grid-row: 12 / span 1;
+        grid-column: 2 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-eleven {
+        grid-row: 12 / span 1;
+        grid-column: 5 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-twelve {
+        grid-row: 12 / span 1;
+        grid-column: 8 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-thirteen {
+        grid-row: 12 / span 1;
+        grid-column: 11 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-fourteen {
+        grid-row: 8 / span 3;
+        grid-column: 8 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+      .sec-fifteen {
+        grid-row: 8 / span 3;
+        grid-column: 11 / span 2;
+        background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(44, 6, 40));
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="sec-one"></section>
+      <section class="sec-two"></section>
+      <section class="sec-three"></section>
+      <section class="sec-four"></section>
+      <section class="sec-five"></section>
+      <section class="sec-six"></section>
+      <section class="sec-seven"></section>
+      <section class="sec-eight"></section>
+      <section class="sec-nine"></section>
+      <section class="sec-ten"></section>
+      <section class="sec-eleven"></section>
+      <section class="sec-twelve"></section>
+      <section class="sec-thirteen"></section>
+      <section class="sec-fourteen"></section>
+      <section class="sec-fifteen"></section>
+      <section class="sec-sixteen"></section>
+    </main>
+  </body>
+</html>
