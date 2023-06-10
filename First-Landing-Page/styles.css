@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.sec-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("images/thisisengineering-raeng-ZPeXrWxOjRQ-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  font-family: Helvetica, sans-serif;
+}
+p {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  display: flex;
+  padding: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
+  margin: 0%;
+  padding: 0%;
+  position: sticky;
+  top: 0%;
+}
+[class*="header-"] {
+  flex: auto;
+}
+.menu {
+  transform: translateX(50px);
+}
+.header-right {
+  padding: 0%;
+  margin: 0%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+.logo {
+  text-align: center;
+  font-size: 2em;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.heade-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+}
+[class*="word-"] {
+  text-align: center;
+}
+.word-one {
+  font-size: 2.5em;
+  font-weight: 900;
+  padding: 15px;
+}
+.word-two {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.word-three {
+  font-size: 15px;
+  color: rgb(224, 221, 221);
+}
+.word-four {
+  font-size: 15px;
+  color: rgb(224, 221, 221);
+}
+aside {
+  padding: 30px 3px;
+  letter-spacing: 1.1px;
+  color: white;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+[class*="but-"] {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.but-one {
+  background-color: #f9a725;
+  color: white;
+  border: none;
+}
+.but-two {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.sec-two {
+  padding: 10px;
+  background-color: #252b41;
+  color: white;
+}
+.choose-us {
+  font-size: 2.5em;
+  font-weight: 900;
+  padding: 80px 2px 2px;
+}
+.choose-word-two,
+.choose-word-three {
+  font-size: 12px;
+  letter-spacing: 1.1px;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 15px 220px 15px 220px 15px 220px 15px;
+  grid-template-rows: 15px 150px 15px 150px 15px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  width: 740px;
+  height: 345px;
+  margin: 0% auto;
+}
+.grid-one {
+  background-color: lightblue;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+.grid-two {
+  background-color: lightcoral;
+  grid-row: 2 / span 1;
+  grid-column: 4 / span 1;
+}
+.grid-three {
+  background-color: lightgoldenrodyellow;
+  grid-row: 2 / span 1;
+  grid-column: 6 / span 1;
+}
+.grid-four {
+  background-color: lightpink;
+  grid-row: 4 / span 1;
+  grid-column: 2 / span 1;
+}
+.grid-five {
+  background-color: lightsalmon;
+  grid-row: 4 / span 1;
+  grid-column: 4 / span 1;
+}
+.grid-six {
+  background-color: lightseagreen;
+  grid-row: 4 / span 1;
+  grid-column: 6 / span 1;
+}
+[class*="grid-"] {
+  border-radius: 2px;
+}
