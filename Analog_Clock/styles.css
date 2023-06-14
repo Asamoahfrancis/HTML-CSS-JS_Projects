@@ -1,0 +1,53 @@
+p {
+  margin: 0%;
+}
+main {
+  width: 40%;
+  height: 70vh;
+  margin: 10% auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 5px silver;
+  background-image: linear-gradient(orange, yellow);
+}
+section {
+  position: absolute;
+}
+.sec_one {
+  width: 50px;
+  height: 70vh;
+  transform: rotateZ(90deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec_two {
+  width: 50px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.one {
+  margin-bottom: auto;
+}
+
+.twe {
+  margin-bottom: auto;
+}
+
+.bar {
+  width: 20px;
+  height: 30vh;
+  margin-top: -230px;
+  transform: translateY(40px);
+  border-radius: 20px;
+  background-color: darkred;
+  transform-origin: bottom center;
+}
