@@ -7,7 +7,7 @@ ul {
 }
 #container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/pipe-a-WQTwsgq_mxg-unsplash.jpg");
+    url("./images/pipe-a-WQTwsgq_mxg-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
