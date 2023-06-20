@@ -19,7 +19,7 @@ function DAO_ALL(e) {
 function Increament() {
   setInterval(function () {
     get_sec_two.innerHTML = ++count;
-  }, 1000);
+  }, 900);
 }
 
 function decrement() {
